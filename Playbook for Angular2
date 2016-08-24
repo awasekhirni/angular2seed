@@ -1,0 +1,79 @@
+Angular 2 playbook
+Created by Dr. Syed Awase Khirni Aug 2016
+awasekhirni@gmail.com 
+sak@sycliq.com
+
+@ component building with angular 2
+1. Scaffold your Angular 2 application from Angular io
+2. create dependencies using npm install
+3  start your scaffolding application with npm start
+4. create corresponding object constructs. 
+5. include/import the object constructs in the container component -> appcomponent
+6. instantiates objects within the container component -> new Object();
+7. define template constructs as per your requirement for 
+	a. inline 
+	b. 'backticks' for multi-line
+	c. templateUrl 
+8.check for includes in app.module.ts 
+9. build corresponding scaffold for master template (bootstrap/materializecss)
+10. check for <html-directive> include of the appcomponent
+
+
+@one-way and 2-way binding checklist 
+=> Follow the steps 1-10 for component building 
+1. One way binding -> use {{templateexpressions}} => interpolation
+2. Two way binding  -> use [(ngModel)]="propertyId" => two way data binding
+
+
+
+@nested components 
+=> follow the steps 1-10 for component building
+1. identify the root container for the component tree
+2. define the component to be nested following steps 1-10
+3. include the <html-directive> inside the selector of the container component
+4. add "Directive:[TodoComponentName]" in the @component decorator 
+5. include imports in the container component and the module 
+6. execute => npm start
+
+
+@playbook for pipes 
+1.define a component constructor with pipe decorators
+2. import pipes from '@angular/core'
+3.class should have transform function=> here the transformation happens
+4. name the pipe in the decorator
+5. include pipes in the root component for use in your application as it is the root container 
+
+
+json endpoints for demo
+https://jsonplaceholder.typicode.com/posts 
+https://httpbin.org/
+http://country.io/continent.json
+http://country.io/names.json 
+http://country.io/iso3.json
+
+Playbook for Custom Service in angular2
+	1. Create a service class 
+	2. Add @Injectable decorator for the class 
+	3. Import @Injectable from the '@angular/core'
+	4. Implment necessary functionality by instantiating in the constructor 
+	5. Using the service 
+		a). inject the service in the app component 
+		b). import {injectable } from 'angular/core' 
+		c) add [Providers] in the decorator component and name the service. 
+		d). add import of the custom service to the component. 
+		e) Add to lifecycle hooks of the component/directive
+	6. include the dependencies in the app.module
+
+
+playbook for Routing in Angular 2 (RC5)
+
+	1.include in the index.html -> base href 
+	2. write individual components and their corresponding templates, styleurls 
+	3. create a new app.routing file with paths and dependencies to include routes, router module.
+	4. include include router  to all the components.
+	5. Identify the root component and router-link, also add router-outlet 
+	6. include dependencies in all the components 
+	7. include dependencies in app.module
+
+
+
