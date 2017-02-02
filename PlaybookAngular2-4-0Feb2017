@@ -1,0 +1,16 @@
+One Way Binding 
+a. git clone your angular 2 seed application
+b. npm install => node_modules 
+c. npm start => check 
+d. kill your angular application, go and modify the package.json files to exact version. 
+e. design your container component (root-app), modify the index.html to match root-app and app.component's selector to "root-app"
+f. create folders appropriate for each child component of the root component. 
+g. define the model for the component. 
+h. define the componentlist for the corresponding model -> equivalent to controller 
+this has decorator @component, which also has templateUrl, styleUrls, instantiate the models in the corresponding component class. 
+import the model. 
+i.register the component in the root -> app component 
+j. Import the component the root -> app.component 
+k. import the components, declare them  in the NgModule => app.module.ts 
+l. check for all imports done. 
+m. npm start your application to render the angular to the browser. 
