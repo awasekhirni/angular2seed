@@ -14,3 +14,22 @@ j. Import the component the root -> app.component
 k. import the components, declare them  in the NgModule => app.module.ts 
 l. check for all imports done. 
 m. npm start your application to render the angular to the browser. 
+
+
+
+Two Data Binding Example Playbook
+
+1. Please repeat step a to i as in One way binding play 
+2. create a child component and corresponding model, list components, html views. Inside html views, we add [(ngModel)] to each and every object property that we intend to perform two data binding
+using input form elements. Note: Please do not use <form></form>, which will break or behave erratically. 
+3. Import FORMSMODULE in App.Module  and register in Imports. Subsequently register the component by importing and including in the Declarations.
+SystemJS is a Dynamic Module loader, it does not care about the order of injection as long as it is declared in the declarations. 
+4. Now go and run you application using "npm start" 
+
+
+Nested Components playbook
+1. Create a component, inject the nested component in the parent component. After injection, import the dependency in the parent component. 
+2. import the component declarations in App.Module 
+3. Include the selector in the parent component view to be rendered, write corresponding nested child component VIEW. 
+4. run your application with "npm start" 
+
