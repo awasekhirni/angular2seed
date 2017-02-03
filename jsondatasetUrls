@@ -1,0 +1,125 @@
+Collated by Syed Awase Khirni
+2015-17
+sak@sycliq.com 
+awasekhirni@gmail.com 
+
+http://www.carqueryapi.com/documentation/api-usage/
+http://www.carqueryapi.com/api/0.3/?callback=?&cmd=getTrims&[params]
+http://www.carqueryapi.com/api/0.3/?callback=?&cmd=getMakes
+http://www.carqueryapi.com/api/0.3/?callback=?&cmd=getMakes&year=2000&sold_in_us=1
+http://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModel&model=11459
+http://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=Toyota
+http://www.carqueryapi.com/api/0.3/?callback=?&cmd=getModels&make=Mercedes-Benz
+
+https://blockchain.info/api/blockchain_api
+https://api.bitcoinaverage.com/ticker/global/all
+
+https://data.police.uk/docs/
+https://data.police.uk/api/forces
+https://data.police.uk/api/crimes-street-dates
+https://data.police.uk/api/forces/leicestershire/people
+https://data.police.uk/api/outcomes-at-location?date=2013-01&lat=52.629729&lng=-1.131592
+https://data.police.uk/api/crimes-at-location?date=2012-02&lat=52.629729&lng=-1.131592
+https://data.police.uk/api/outcomes-for-crime/55cf6589528767582bf0c96af1a4f99308aa66daad285c3f8317df357628bee0
+https://data.police.uk/api/stops-street?poly=52.268,0.543:52.794,0.238:52.130,0.478&date=2015-01
+https://data.police.uk/api/stops-street?lat=52.629729&lng=-1.131592&date=2015-05
+https://data.police.uk/api/stops-at-location?location_id=885142&date=2015-06
+https://data.police.uk/api/stops-no-location?force=cleveland&date=2015-06
+https://data.police.uk/api/stops-force?force=avon-and-somerset&date=2015-04
+https://data.police.uk/api/leicestershire/neighbourhoods
+https://data.police.uk/api/crimes-no-location?category=all-crime&force=warwickshire&date=2013-09
+https://data.police.uk/api/crime-categories?date=2011-08
+https://data.police.uk/api/outcomes-for-crime/55cf6589528767582bf0c96af1a4f99308aa66daad285c3f8317df357628bee0
+
+
+Currency Rates 
+http://api.fixer.io/latest
+http://api.fixer.io/latest?base=USD
+http://api.fixer.io/latest?base=INR
+http://api.fixer.io/latest?symbols=USD,GBP
+
+
+Vat rates
+http://jsonvat.com/
+
+
+Online Gaming 
+http://api.bf4stats.com/api/onlinePlayers?output=json
+http://api.bf4stats.com/api/playerInfo?plat=pc&name=1ApRiL&output=json
+http://api.bf4stats.com/api/playerRankings?plat=pc&name=1ApRiL&output=json
+
+Github
+https://api.github.com/events
+https://api.github.com/emojis
+https://api.github.com/gists
+
+
+Government Data USA 
+http://developer.trade.gov/api/trade-apis.json
+http://developer.trade.gov/api/market-research-library.json
+http://developer.trade.gov/trade-events.html
+https://api.trade.gov/trade_events/search?api_key={your key}&q={term}
+http://developer.trade.gov/ita-taxonomies.html
+
+
+USA GOV
+https://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contacts
+https://www.justice.gov/api/v1/press_releases.json?pagesize=100
+https://www.justice.gov/api/v1/vacancy_announcements.json?pagesize=100
+
+Canada Data
+https://feeds.bikesharetoronto.com/stations/stations.json
+http://opendata.toronto.ca/transportation/tmc/rescucameraimages/Data/tmcearthcameras.json
+http://wx.toronto.ca/inter/culture/doorsopen.nsf/DoorsOpenBuildingJSON.xsp
+http://app.toronto.ca/opendata/heat_alerts/heat_alerts_list.json
+http://www1.toronto.ca/transportation/roadrestrictions/RoadRestrictions.json
+http://opendata.tplcs.ca/data/TPL_top_website_searches_2011-2014.json
+http://app.toronto.ca/opendata/bodysafe/full_list.json?v=1.00&row_start=1&row_count=1000
+
+
+Losangeles
+https://data.lacounty.gov/api/views/b9ey-v6ni/rows.json?accessType=DOWNLOAD
+https://data.lacounty.gov/api/views/gf6j-sjun/rows.json?accessType=DOWNLOAD
+https://data.lacounty.gov/api/views/8rdv-6nb6/rows.json?accessType=DOWNLOAD
+https://data.smgov.net/api/views/j485-ymdf/rows.json?accessType=DOWNLOAD
+https://data.lacounty.gov/api/views/b9ey-v6ni/rows.json?accessType=DOWNLOAD
+
+GIFs
+http://api.giphy.com/v1/gifs/feqkVgjJpYtjy?api_key=dc6zaTOxFJmzC
+http://api.giphy.com/v1/gifs/search?q=cats&api_key=dc6zaTOxFJmzC
+
+
+OpenSource Licenses
+https://api.opensource.org/licenses/
+https://api.opensource.org/licenses/copyleft
+
+https://api.trade.gov/ita_taxonomies/search?api_key={your key}&q={keyword}
+
+
+
+politician data sets
+
+https://cdn.rawgit.com/everypolitician/everypolitician-data/ff5e4ad53738c98dd4b8c1f95e73fb67306d73af/data/India/Lok_Sabha/ep-popolo-v1.0.json
+http://data.cnn.com/ELECTION/2016/full/P.full.json
+https://raw.githubusercontent.com/everypolitician/everypolitician-data/master/countries.json
+
+
+http://data.cnn.com/ELECTION/2016/full/P.full.json
+
+funding 
+https://www.crunchbase.com/funding-rounds
+
+
+http://jsonstudio.com/resources/
+
+https://data.gov.uk/dataset/basic-company-data
+
+http://gomashup.com/json.php?fds=finance/fortune500/rank/1&jsoncallback=?
+
+http://gomashup.com/json.php?fds=finance/fortune500/year/2009&jsoncallback=?
+http://gomashup.com/json.php?fds=finance/fortune500/company/Google&jsoncallback=?
+
+
+http://gomashup.com/cms/free_data_feeds
+
+http://api.flickr.com/services/feeds/photos_public.gne?tags=surf,pipeline&tagmode=all&format=json&jsoncallback=?
