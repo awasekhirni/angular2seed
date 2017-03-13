@@ -1,7 +1,7 @@
-08 Simra Fathima
-26 Azeez Al Asaad
-06 Nayyirah Fathima
-27 Mauruf Hussain
-38 Syed Awase 
-34 Syed Ameese
+08 Simra
+26 Azeez
+06 Nayyirah
+27 Mauruf
+38 SyedAwase 
+34 SyedAmeese
 68 Aman
