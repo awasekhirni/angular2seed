@@ -123,3 +123,6 @@ http://gomashup.com/json.php?fds=finance/fortune500/company/Google&jsoncallback=
 http://gomashup.com/cms/free_data_feeds
 
 http://api.flickr.com/services/feeds/photos_public.gne?tags=surf,pipeline&tagmode=all&format=json&jsoncallback=?
+
+
+http://api.worldbank.org/countries?per_page=12000&format=json
