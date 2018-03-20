@@ -1,0 +1,23 @@
+Angular 2	Visual Studio Code Editor/Sublime Text	https://code.visualstudio.com/
+NodeJS	https://nodejs.org/en/
+TypeScript	https://www.typescriptlang.org/
+Angular 2/4	https://angular.io/
+Augury Tools for Angular 2/4	https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd?hl=en
+MaterializeCSS	http://materializecss.com/
+Bootstrap Framework 	http://getbootstrap.com/
+Balsamiq	
+Augury	https://augury.angular.io/
+Angular Universal	https://universal.angular.io/
+npm config set registry http://registry.npmjs.org/	
+npm config set proxy http://myusername:mypassword@proxy.us.somecompany:8080
+npm config set https-proxy http://myusername:mypassword@proxy.us.somecompany:8080
+npm config set strict-ssl false	
+set HTTPS_PROXY=http://myusername:mypassword@proxy.us.somecompany:8080
+set HTTP_PROXY=http://myusername:mypassword@proxy.us.somecompany:8080
+export HTTPS_PROXY=http://myusername:mypassword@proxy.us.somecompany:8080
+export HTTP_PROXY=http://myusername:mypassword@proxy.us.somecompany:8080
+export http_proxy=http://myusername:mypassword@proxy.us.somecompany:8080
+npm --proxy http://myusername:mypassword@proxy.us.somecompany:8080 \
+--without-ssl --insecure -g install	
+npm config set proxy http://proxy.company.com:8080	
+npm config set https-proxy http://proxy.company.com:8080
